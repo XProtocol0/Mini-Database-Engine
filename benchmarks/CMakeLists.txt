@@ -1,0 +1,2 @@
+add_executable(micro_bench micro_bench.cpp)
+target_link_libraries(micro_bench PRIVATE minidb minidb_options)
